@@ -88,7 +88,7 @@ def execute(competition_cod):
             if(diff_goals_home_team>=3):
                 
                 if((df_next.values[i][0] == last_match_home_team.values[0][0]) &
-                  (float(df_next.values[i][2]) <= 5) & (float(last_match_home_team.values[0][2]) <=5) ):
+                  (float(df_next.values[i][2]) <= 6) & (float(last_match_home_team.values[0][2]) <= 6) ):
                     
                     if(len(df_soccervista_predictions)==0):
                         Utility.build_bot_message_no_soccervista(last_match_home_team.values[0], df_next.values[0], tip)
@@ -140,7 +140,7 @@ def execute(competition_cod):
             elif(diff_goals_home_team <= -3):
                 
                 if((df_next.values[i][0] == last_match_home_team.values[0][1]) &
-                   (float(df_next.values[i][2]) <= 5) & (float(last_match_home_team.values[0][4]) <=5) ):
+                   (float(df_next.values[i][2]) <= 6) & (float(last_match_home_team.values[0][4]) <= 6) ):
                     
                     if(len(df_soccervista_predictions)==0):
                         Utility.build_bot_message_no_soccervista(last_match_home_team.values[0], df_next.values[0], tip)
@@ -209,7 +209,7 @@ def execute(competition_cod):
             if(diff_goals_away_team>=3):
                 
                 if(( df_next.values[i][1] == last_match_away_team.values[0][0] ) &
-                   ( float(df_next.values[i][4]) <= 5 ) & ( float(last_match_home_team.values[0][2]) <=5 ) ):
+                   ( float(df_next.values[i][4]) <= 6 ) & ( float(last_match_home_team.values[0][2]) <= 6 ) ):
                     
                     if(len(df_soccervista_predictions)==0):
                         Utility.build_bot_message_no_soccervista(last_match_home_team.values[0], df_next.values[0], tip)
@@ -263,7 +263,7 @@ def execute(competition_cod):
             elif(diff_goals_away_team<=-3):
                 
                 if(( df_next.values[i][1] == last_match_away_team.values[0][1] ) &
-                     ( float(df_next.values[i][4]) <= 5 ) & ( float(last_match_home_team.values[0][4]) <=5 )):
+                     ( float(df_next.values[i][4]) <= 6 ) & ( float(last_match_home_team.values[0][4]) <= 6 )):
                     
                     if(len(df_soccervista_predictions)==0):
                         Utility.build_bot_message_no_soccervista(last_match_home_team.values[0], df_next.values[0], tip)

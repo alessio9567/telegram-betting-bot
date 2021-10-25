@@ -1,2 +1,2 @@
-cd /home/pi/metodo/src/
-python3 /home/pi/metodo/src/SendNotification.py $1
+cd /home/pi/metodoprod/src/
+python3 /home/pi/metodoprod/src/SendNotification.py $1

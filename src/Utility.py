@@ -187,7 +187,7 @@ def telegram_bot_sendphoto( photo_path ):
 
 def telegram_bot_sendlog( bot_message ):
 
-    BOT_TOKEN = '1310003274:AAE6FmLQVlYWrerylGfrxN1CRhhQYekjLX4'
+    BOT_TOKEN = CommonUtility.getParameterFromFile('BOT_TOKEN')
     BOT_CHATID = '-1001215704490'
 
     send_text = 'https://api.telegram.org/bot' + \

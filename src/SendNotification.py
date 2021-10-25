@@ -3,7 +3,7 @@ import CommonUtility
 import requests
 import sys
 
-BOT_TOKEN = '1310003274:AAE6FmLQVlYWrerylGfrxN1CRhhQYekjLX4'
+BOT_TOKEN = str(CommonUtility.getParameterFromFile('BOT_TOKEN'))
 BOT_CHATID = str(CommonUtility.getParameterFromFile('BOT_CHATID'))
 
 if __name__ == '__main__':

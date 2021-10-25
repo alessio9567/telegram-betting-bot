@@ -1,3 +1,3 @@
-cd /home/pi/metodo/src/
-python3 /home/pi/metodo/src/main_rankings.py
+cd /home/pi/metodoprod/src/
+python3 /home/pi/metodoprod/src/main_rankings.py
 
