@@ -30,5 +30,6 @@ for i in df_leagues.index:
                     df_leagues.values[i][2],
                     df_leagues.values[i][3])
 
-    Utility.telegram_bot_sendlog("END Update Results {}".format(df_leagues.values[i][0]+'/'+df_leagues.values[i][1]))
+    print(df_leagues.values[i][0]+'/'+df_leagues.values[i][1])
 
+    Utility.telegram_bot_sendlog("END Update Results {}".format(df_leagues.values[i][0]+'/'+df_leagues.values[i][1]))

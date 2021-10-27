@@ -43,8 +43,7 @@ if len(sys.argv) == 1:
 
         Metodo.execute(df_leagues.values[i][2])
 
-        Utility.telegram_bot_sendlog("END Update Next {} \
-    Ambiente di {}".format(cl,ENV))
+        Utility.telegram_bot_sendlog("END Update Next {}".format(cl))
 
 else:
     cl = sys.argv[1] + '/' + sys.argv[2]
