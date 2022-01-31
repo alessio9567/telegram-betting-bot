@@ -1,6 +1,6 @@
 # TelegramBettingBot
 
-This is my personal project and consists of a series of Python scripts running on a Raspberry Pi Zero W and written in a pretty functional way ( a lot of functions and modules)
+This is my personal project and consists of a series of Python scripts running on a Raspberry Pi Zero W and written in a pretty functional way ( a lot of functions and modules).
 These scripts are scheduled every day and launched by some Shell scripts. 
 
 The process initially gets new data from this website using Beautifoul soup for scraping:
